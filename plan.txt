@@ -1,0 +1,23 @@
+PLAN:
+
+Try make as series of sm. indep. files, which each do one thing.
+We don't need a db right off the bat.
+We could have a series of functions which read generic JSON wrt to where it is
+coming from.
+
+What are the user stories:
+
+Add an ecosystem function
+Add an ecosystem
+Add a common function (interview)
+
+Get all functions in a given ecosystem
+
+
+--
+Might be able to due ~Half of this with just:
+1. one file per table
+2. jq
+3. awk or sim. for formatting (map stdin -> stdout)
+
+Then add simple server + curl.

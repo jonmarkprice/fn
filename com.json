@@ -1,0 +1,11 @@
+[
+  {
+    "name": "head",
+    "in": [
+      {"type": "Seq", "of": ["a"]}
+    ],
+    "out": "a",
+    "canFail": true,
+    "aliases": ["peek"]
+  }
+]
