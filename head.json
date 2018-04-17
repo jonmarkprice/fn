@@ -7,7 +7,7 @@
   "can_fail": true,
   "aliases": ["peek"],
   "implementaions": [
-    {"name": "head",  "namespace": [],            "eco": "Ramda",     "url": "rambdajs.com/docs/#head"},
+    {"name": "head",  "namespace": [],            "eco": "Ramda",     "url": "http://ramdajs.com/docs/#head"},
     {"name": "head",  "namespace": [],            "eco": "Sanctuary", "url": "https://sanctuary.js.org/#head"},
     {"name": "head",  "namespace": ["Data.List"], "eco": "Haskell",   "url": "http://hackage.haskell.org/package/base-4.11.0.0/docs/Data-List.html#v:head"}, 
     {"name": "hd",    "namespace": ["List"],       "eco": "OCaml",    "url": "http://caml.inria.fr/pub/docs/manual-ocaml/libref/List.html#VALhd"}

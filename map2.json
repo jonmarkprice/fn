@@ -1,0 +1,16 @@
+{
+  "name": "map2",
+  "in": [
+    {"type": "Fn", "from": ["a", "b"], "to": "c"},
+    {"type": "Seq", "of": "a"},
+    {"type": "Seq", "of": "b"}
+  ],
+  "out": {"type": "Seq", "of": "c"},
+  "can_fail": false,
+  "aliases": ["zipWith"],
+  "implementaions": [
+    {"name": "head",  "namespace": [],            "eco": "Ramda",     "url": "rambdajs.com/docs/#zipWith"},
+    {"name": "head",  "namespace": ["Data.List"], "eco": "Haskell",   "url": "http://hackage.haskell.org/package/base-4.11.0.0/docs/Data-List.html#v:zipWith"}, 
+    {"name": "hd",    "namespace": ["List"],       "eco": "OCaml",    "url": "http://caml.inria.fr/pub/docs/manual-ocaml/libref/List.html#VALmap2"}
+  ]
+}
